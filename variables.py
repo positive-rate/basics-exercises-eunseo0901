@@ -5,6 +5,8 @@ def use_variables():
 
     # Make a new variable to store the amount of hours in a week
     # and assign it the correct value (multiply using '*')
+    hours_in_week = days_in_week*hours_in_day
+    print (hours_in_week)
 
 def reassignment():
     # Read this code, and write behind each line what the values of the variables are.

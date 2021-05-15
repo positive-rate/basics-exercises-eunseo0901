@@ -6,11 +6,11 @@ def simple_conditions():
 
     # Complete all the statements
     print(f'a is larger than b: {a > b}')
-    print(f'b is smaller than c: ')
-    print(f'b is larger than or equal to c: ')
-    print(f'c is smaller than or equal to b: ')
-    print(f'b is equal to c: ')
-    print(f'a is not equal to d: ')
+    print(f'b is smaller than c: {b < c} ')
+    print(f'b is larger than or equal to c: {b >= c }')
+    print(f'c is smaller than or equal to b: {c<= b} ')
+    print(f'b is equal to c: {b == c} ')
+    print(f'a is not equal to d: {a != d}')
 
 def composite_conditions():
     a = 1
@@ -20,9 +20,9 @@ def composite_conditions():
 
     # Complete all statements
     print(f'c is twice as big as a: {c == 2 * a}')
-    print(f'd is four times as big as b: ')
-    print(f'c is a plus b: ')
-    print(f'd divided by c is b: ')
+    print(f'd is four times as big as b: {d == 4 * b}')
+    print(f'c is a plus b: {c == a + b} ')
+    print(f'd divided by c is b: {d/c == b}')
 
 def combining_conditions():
     a = True

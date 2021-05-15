@@ -1,10 +1,11 @@
 def simple_print():
     # print the number 7
-    pass
+    print (7)
 
 def many_print():
     # print the number 7 seven times (each on a new line)
-    pass
+    print (7) 
+    
 
 def long_print():
     # print '7777777' (seven 7s)

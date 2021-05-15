@@ -2,19 +2,27 @@ def string_input():
     # Use print() a message asking the user to enter their name
     # Get the user their name using input()
     # Print a message with the user their name
-    pass
+    print ("What is your name?")
+    answer = input()
+    print (f"hi {answer}")
 
 def question_input():
     # Ask the user a question using the input() function, and store the answer
     # Print a sentence using the answer
     # What is the difference between using print() and input() to ask the question?
-    pass
-
+    print ("What is your favorite color?")
+    fav_color = input()
+    print (f"I like {fav_color} too! ")
 def int_input():
     # Ask the user for a number, and store it in a variable
     # Convert the number to an int
     # Print the answer to 42 times the number
-    pass
+    print ("what is your favorite number?")
+    fav_number = input()
+    fav_number = int(fav_number) 
+    print (fav_number*42)
+  
+
 
 def main():
     print('Which exercise do you want to run?')

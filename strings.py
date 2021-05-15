@@ -1,18 +1,18 @@
 def simple_printing():
     # 1. Print a string with single quotes
-    print()
+    print('hello')
 
     # 2. Print a string with double quotes
-    print()
+    print("nice to meet you")
 
 def variable_printing():
     # Store your name in this variable, then print a sentence with your name,
     # using that variable. Use the + operator to concatenate (glue together) strings.
-    my_name = ''
-    print()
+    my_name = 'Eunseo'
+    print('Hi my name is ' + my_name)
 
     # Use the my_name variable in another sentence, but this time use an f-string
-    print()
+    print(f"Hi my name is {my_name}")
 
 def main():
     print('Which exercise do you want to run?')
